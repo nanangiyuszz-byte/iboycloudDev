@@ -1,4 +1,3 @@
-cat <<EOF > src/main.tsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider } from '@tanstack/react-router'
@@ -16,4 +15,3 @@ if (!rootElement.innerHTML) {
     </React.StrictMode>,
   )
 }
-EOF
